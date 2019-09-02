@@ -10,7 +10,7 @@
                 margin: 0 auto;
             }
             .container img{
-                width: 100%;
+                width: 80%;
 
             }
             .footer{
@@ -276,8 +276,8 @@ $result = queryMysql($query);
                         
             </div>
                 <div id="footer">
-            <center><p><b>Contact us with this phone number : 0856897788 </b><center>
-            <center><p><b>Address : 290 Lang Ha </b><center>
+            <center><p><b>Contact us with this phone number : 0987777777 </b><center>
+                <center><p><b>Address : Tran Duy Hung Street </b><center>
             </div>
             </div>
 
