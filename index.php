@@ -8,6 +8,7 @@
             .container{
                 width: 90%;
                 margin: 0 auto;
+                
             }
             .container img{
                 width: 50%;
@@ -116,7 +117,7 @@ $result = queryMysql($query);
                         <li><a href="#Princess" class="w3-bar-item w3-hover-white">Princess</a></li>
                         <li><a href="#BlackBaby" class="w3-bar-item w3-hover-white">BlackBaby</a></li>
                         <li><a href="#Mermaid" class="w3-bar-item w3-hover-white">Mermaid</a></li>
-                        <center><li><a href="./header.php" class="w3-bar-item w3-hover-white" style="margin-left: 120%">Admin</a></li></center>
+                        <center><li><a href="./header.php" class="w3-bar-item w3-hover-white" style="margin-left: 180%">Admin</a></li></center>
 
                     </ul>
 
