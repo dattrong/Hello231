@@ -10,7 +10,7 @@
                 margin: 0 auto;
             }
             .container img{
-                width: 80%;
+                width: 50%;
 
             }
             .footer{
@@ -90,10 +90,10 @@
                 float: left;
             }
             .nav a:hover{
-                color: black;
+                color: pink;
             }
             .nav li:hover{
-                background-color:red;
+                background-color:pink;
             }
         </style>
     </head>
@@ -116,7 +116,7 @@ $result = queryMysql($query);
                         <li><a href="#Princess">Princess</a></li>
                         <li><a href="#BlackBaby">BlackBaby</a></li>
                         <li><a href="#Mermaid">Mermaid</a></li>
-                        <center><li><a href="./header.php">Admin</a></li></center>
+                        <center><li><a href="./header.php" style="margin-left: 50%">Admin</a></li></center>
 
                     </ul>
 
