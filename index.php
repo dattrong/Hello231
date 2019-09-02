@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ATN Toy Store</title>
+        <title>Baby Lady</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <style>
@@ -107,7 +107,7 @@ $result = queryMysql($query);
 ?>
 
         <div class="container">
-            <center><img src="images/1."></center>
+            <center><img src="images/1.png"></center>
             <div class="header">
                 
                 <div class="nav">
@@ -139,7 +139,7 @@ $result = queryMysql($query);
                         
                  </div>
                     <div class="list w3-row">
-                    <div class="" id="Princess"><h2>Pricess</h2>
+                    <div class="" id="Princess"><h2>Princess</h2>
                     <?php
      require_once './functions.php';
      $query = "SELECT iid, iname, idescription, iprice, istatus, isize, iimage,cname FROM Item,Catalogue WHERE Item.cid=Catalogue.cid AND cName LIKE '%Princess%'  ORDER BY cname";
