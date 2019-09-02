@@ -107,7 +107,7 @@ $result = queryMysql($query);
 ?>
 
         <div class="container">
-            <center><img src="images/1.png"></center>
+            <center><img src="images/1.jpg"></center>
             <div class="header">
                 
                 <div class="nav">
