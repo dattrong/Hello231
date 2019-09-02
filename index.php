@@ -112,11 +112,11 @@ $result = queryMysql($query);
                 
                 <div class="nav">
                     <ul class="w3-bar w3-pink">
-                        <center><li><a href="./index.php">Home</a></li></center>
+                        <center><li><a href="./index.php"class="w3-bar-item w3-hover-white">Home</a></li></center>
                         <li><a href="#Princess" class="w3-bar-item w3-hover-white">Princess</a></li>
                         <li><a href="#BlackBaby" class="w3-bar-item w3-hover-white">BlackBaby</a></li>
                         <li><a href="#Mermaid" class="w3-bar-item w3-hover-white">Mermaid</a></li>
-                        <center><li><a href="./header.php" class="w3-bar-item w3-hover-white" style="margin-left: 80%">Admin</a></li></center>
+                        <center><li><a href="./header.php" class="w3-bar-item w3-hover-white" style="margin-left: 100%">Admin</a></li></center>
 
                     </ul>
 
