@@ -113,10 +113,10 @@ $result = queryMysql($query);
                 <div class="nav">
                     <ul>
                         <center><li><a href="./index.php">Home</a></li></center>
-                        <center><li><a href="./header.php">Admin</a></li></center>
                         <li><a href="#Princess">Princess</a></li>
                         <li><a href="#BlackBaby">BlackBaby</a></li>
                         <li><a href="#Mermaid">Mermaid</a></li>
+                        <center><li><a href="./header.php">Admin</a></li></center>
 
                     </ul>
 
@@ -128,10 +128,10 @@ $result = queryMysql($query);
 
                     <div class="detail">
                         <div class="title">
-                            <i>ATN</i>
+                            <i>ATN company</i>
                         </div>
                         <div class="des">
-                             Slogan
+                             Welcome to Baby Lady
                         </div>
                     </div>
                 </div>
