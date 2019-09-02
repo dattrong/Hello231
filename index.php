@@ -98,7 +98,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style="background-color: papayawhip">
         <?php
 require_once './functions.php';
 //load items
