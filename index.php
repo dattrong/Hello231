@@ -98,7 +98,7 @@
             }
         </style>
     </head>
-    <body style="color: papayawhip">
+    <body style="background-color: papayawhip">
         <?php
 require_once './functions.php';
 //load items
@@ -107,8 +107,8 @@ $result = queryMysql($query);
 
 ?>
 
-        <div class="container">
-            <center><img src="images/1.jpg"></center>
+        <div class="container" style="background-color: papayawhip">
+            <center><img src="images/1.jpg" style="background-color: papayawhip"></center>
             <div class="header">
                 
                 <div class="nav" background-color: pink>
