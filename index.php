@@ -107,16 +107,16 @@ $result = queryMysql($query);
 ?>
 
         <div class="container">
-            <center><img src="images/ToyStore.jpg"></center>
+            <center><img src="images/1."></center>
             <div class="header">
                 
                 <div class="nav">
                     <ul>
                         <center><li><a href="./index.php">Home</a></li></center>
                         <center><li><a href="./header.php">Admin</a></li></center>
-                        <li><a href="#Lego">Lego</a></li>
-                        <li><a href="#Figure">Figure</a></li>
-                        <li><a href="#Clay">Clay</a></li>
+                        <li><a href="#Princess">Princess</a></li>
+                        <li><a href="#BlackBaby">BlackBaby</a></li>
+                        <li><a href="#Mermaid">Mermaid</a></li>
 
                     </ul>
 
@@ -136,10 +136,13 @@ $result = queryMysql($query);
                     </div>
                 </div>
                 <div class="seperator">
- 
+                        
+                 </div>
+                    <div class="list w3-row">
+                    <div class="" id="Princess"><h2>Pricess</h2>
                     <?php
      require_once './functions.php';
-     $query = "SELECT iid, iname, idescription, iprice, istatus, isize, iimage,cname FROM Item,Catalogue WHERE Item.cid=Catalogue.cid AND cName LIKE '%Lego%'  ORDER BY cname";
+     $query = "SELECT iid, iname, idescription, iprice, istatus, isize, iimage,cname FROM Item,Catalogue WHERE Item.cid=Catalogue.cid AND cName LIKE '%Princess%'  ORDER BY cname";
      $result = queryMysql($query);
      $result->setFetchMode(PDO::FETCH_ASSOC);
      $result->execute();
@@ -181,10 +184,10 @@ $result = queryMysql($query);
      
                 </div>        
                     <div class="list w3-row">
-                    <div class=""id="Figure"><h2>Figure</h2>
+                    <div class=""id="BlackBaby"><h2>BlackBaby</h2>
                     <?php
      require_once './functions.php';
-    $query = "SELECT iid, iname, idescription, iprice, istatus, isize, iimage,cname FROM Item,Catalogue WHERE Item.cid=Catalogue.cid AND cName LIKE '%Figure%'  ORDER BY cname";
+    $query = "SELECT iid, iname, idescription, iprice, istatus, isize, iimage,cname FROM Item,Catalogue WHERE Item.cid=Catalogue.cid AND cName LIKE '%BlackBaby%'  ORDER BY cname";
      $result = queryMysql($query);
      $result->setFetchMode(PDO::FETCH_ASSOC);
      $result->execute();
@@ -226,10 +229,10 @@ $result = queryMysql($query);
      
                 </div>       
                     <div class="list w3-row">
-                    <div class=""id="Clay"><h2>Clay</h2>
+                    <div class=""id="Mermaid"><h2>Mermaid</h2>
                     <?php
      require_once './functions.php';
-    $query = "SELECT iid, iname, idescription, iprice, istatus, isize, iimage,cname FROM Item,Catalogue WHERE Item.cid=Catalogue.cid AND cName LIKE '%Clay%'  ORDER BY cname";
+    $query = "SELECT iid, iname, idescription, iprice, istatus, isize, iimage,cname FROM Item,Catalogue WHERE Item.cid=Catalogue.cid AND cName LIKE '%Mermaid%'  ORDER BY cname";
      $result = queryMysql($query);
      $result->setFetchMode(PDO::FETCH_ASSOC);
      $result->execute();
@@ -268,8 +271,16 @@ $result = queryMysql($query);
     </div>";                                                                                       
     }
 ?>
+         </div>
+
+                        
             </div>
+                <div id="footer">
+            <center><p><b>Contact us with this phone number : 0856897788 </b><center>
+            <center><p><b>Address : 290 Lang Ha </b><center>
+            </div>
+            </div>
+
         </div>
     </body>
 </html>
-
